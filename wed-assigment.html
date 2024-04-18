@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<script>
+    let number = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+    number.sort(function (a, b) { return a - b });
+    console.log(number);
+
+    let min = Math.min(...number)
+    console.log(min);
+
+    let max = Math.max(...number)
+    console.log(max);
+
+    let median1 = number[5]
+    let median2 = number[6]
+    let median = median1 + median2
+    let totalMedian = median / 2
+    console.log(totalMedian);
+
+    let AgeLenght = number
+    AgeLenght = number.length
+    // console.log(avrageAge);
+    let totalNumber = number[0] + number[1] + number[2] + number[3] + number[4] + number[5] + number[6] + number[7] + number[8] + number[9]
+    let avrageAge = totalNumber / AgeLenght
+    // console.log(totalNumber);
+    console.log(avrageAge);
+
+
+    let range = max - min
+    console.log(range);
+
+
+
+
+
+
+</script>
